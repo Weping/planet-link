@@ -26,3 +26,8 @@ Document | Refactor of documentation, e.g. help files.
 # To run in development do
 - `npm install`
 - `npm run dev`
+
+# Packages
+- `npm install gray-matter` for parsing metadata of markdown files
+- `npm install remark remark-html` for rendering markdown content of markdown files
+- `npm install date-fns` for formatting dates
