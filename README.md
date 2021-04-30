@@ -33,6 +33,8 @@ Document | Refactor of documentation, e.g. help files.
 - `npm install date-fns` for formatting dates
 
 ## Module dependencies ordering
+Keyword | Description
+--- | --
 Builtin | Standard libraries
 External | Third party libraries
 Internal | Own code imports
