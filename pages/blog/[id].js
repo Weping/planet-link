@@ -1,5 +1,5 @@
-import Layout from '../../components/layout-blog'
-import Date from '../../components/date-blog'
+import Layout from '../../components/blog-layout'
+import Date from '../../components/blog-date'
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 import { getAllPostIds, getPostData } from '../../lib/blog-posts'
