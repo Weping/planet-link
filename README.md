@@ -31,6 +31,7 @@ Document | Refactor of documentation, e.g. help files.
 - `npm install gray-matter` for parsing metadata of markdown files
 - `npm install remark remark-html` for rendering markdown content of markdown files
 - `npm install date-fns` for formatting dates
+- `npm install rss-parser` for parsing RSS feeds
 
 ## Module dependencies ordering
 Keyword | Description
@@ -40,3 +41,8 @@ External | Third party libraries
 Internal | Own code imports
 Specific | Imports specific to the module (e.g. css, png, etc.)
 Test | Code only used for tests
+
+# Parsers
+
+## RSS
+- Read this [article](https://andreaskeller.name/blog/nextjs-rss-reader)
