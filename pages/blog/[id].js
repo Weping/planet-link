@@ -1,8 +1,10 @@
+import Head from 'next/head'
+
 import Layout from '../../components/blog-layout'
 import Date from '../../components/blog-date'
-import Head from 'next/head'
-import utilStyles from '../../styles/utils.module.css'
+
 import { getAllPostIds, getPostData } from '../../lib/blog-posts'
+import utilStyles from '../../styles/blog-utils.module.css'
 
 export async function getStaticProps({ params }) {
   const postData = await getPostData(params.id)
