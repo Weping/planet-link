@@ -16,7 +16,7 @@ export default function Home() {
           Go to <a href="/blog">/blog</a>
         </h1>
         <h1 className={styles.title}>
-          Go to <a href="/rss-test">/rss-test</a>
+          Go to <a href="/sources">/sources</a>
         </h1>
       </main>
     </div>

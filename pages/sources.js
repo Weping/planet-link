@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { externalSources } from "../constants/external-sources";
+import { externalSources } from "../constants/external-sources"
 import styles from '../styles/home.module.css'
 
 export default function RssTest() {
@@ -14,7 +14,7 @@ export default function RssTest() {
       </Head>
       <main className={styles.main}>
         {externalSources.map((source) => (
-          <Link key={source.slug} href={`/feeds/${source.slug}`}>
+          <Link href={`/source/${source.slug}`} key={source.slug}>
             <a>{source.title}</a>
           </Link>
         ))}
