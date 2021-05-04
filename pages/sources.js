@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Link from 'next/link'
 
-import { externalSources } from "../constants/external-sources"
+import { externalSources } from '../constants/external-sources'
 import styles from '../styles/home.module.css'
 
 export default function RssTest() {
